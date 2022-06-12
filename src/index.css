@@ -7,7 +7,49 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+}
+html, body, .App, #root {
+  height: 100%;
+}
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+img, picture, video, canvas, svg {
+  display: block;
+  max-width: 100%;
+}
+input, button, textarea, select {
+  font: inherit;
+}
+p, h1, h2, h3, h4, h5, h6 {
+  overflow-wrap: break-word;
+}
+#root {
+  isolation: isolate;
+}
+
+.title {
+  text-align: center;
+  padding: 2%;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns:  repeat(auto-fit, minmax(250px, 1fr));
+  grid-template-rows:  repeat(auto-fit, minmax(250px, 1fr));
+  align-items: center;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  place-items: center;
+  gap: 20px;
 }
