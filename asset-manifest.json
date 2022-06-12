@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/cool-animations/static/css/main.fddb0b8c.css",
+    "main.js": "/cool-animations/static/js/main.87a1e399.js",
+    "index.html": "/cool-animations/index.html",
+    "main.fddb0b8c.css.map": "/cool-animations/static/css/main.fddb0b8c.css.map",
+    "main.87a1e399.js.map": "/cool-animations/static/js/main.87a1e399.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fddb0b8c.css",
+    "static/js/main.87a1e399.js"
+  ]
+}
